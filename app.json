@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "conversor-app",
+    "name": "Conversor de Moedas",
     "slug": "conversor-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,11 +22,18 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.jmdev.software.conversorapp"
+      "package": "com.jmdev.software.conversorapp",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "primaryColor": "#007AFF",
+    "description": "App intuitivo para conversão de moedas em tempo real, com interface moderna e suporte a múltiplas moedas.",
     "extra": {
       "eas": {
         "projectId": "917f2d3d-b644-43dd-b76b-3b235700b2ec"
