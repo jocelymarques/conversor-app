@@ -18,9 +18,6 @@ export async function exchangeRateApi(fromCurrency: string): Promise<ExchangeRat
         return undefined
     }
 
-
-
-
 }
 
 export function convertCurrency(amount: string, rate: number): number {

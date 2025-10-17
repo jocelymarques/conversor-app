@@ -1,7 +1,5 @@
 import { StyleSheet } from 'react-native';
 import { colors } from '@/styles/colors';
-import { ScrollView } from 'react-native/types_generated/index';
-import { currencies } from '@/constants/currencies';
 
 export const styles = StyleSheet.create({
     container: {
@@ -51,7 +49,6 @@ export const styles = StyleSheet.create({
         flexWrap: 'wrap',
         marginHorizontal: -4,
         marginBottom: 16,
-        alignItems: 'center',
         justifyContent: 'center',
 
 
@@ -77,9 +74,13 @@ export const styles = StyleSheet.create({
         borderRadius: 12,
         marginBottom: 24
     },
-    convertButtonDisabled:{
+    convertButtonDisabled: {
         backgroundColor: colors.disabled,
-    }
+    },
+    scrollContent: {
+        flexGrow: 1,
+        paddingBottom: 20,
+    },
 
 
 })
